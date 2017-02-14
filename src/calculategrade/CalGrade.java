@@ -24,7 +24,7 @@ public class SoftWareSubject implements ICalGrade {
     
                    
     
-    public String culGrade(int point) {
+    public String calGrade(int point) {
         
       
         if(point > gradeMax){
