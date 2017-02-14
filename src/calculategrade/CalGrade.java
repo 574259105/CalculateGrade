@@ -29,26 +29,32 @@ public class SoftWareSubject implements ICalGrade {
       
         if(point > gradeMax){
             
-            return Grade="Grade ERROR";
+            return grade="Grade ERROR";
             
         }else if(point >= gradeA){
-             return Grade="A";
+             return grade="A";
              
         }else if(point >= gradeBPlus){
-             return Grade="B+";
+             return grade="B+";
              
         }else if(point >= gradeB){
-             return Grade="B";
+             return grade="B";
+            
         }else if(point >= cc){
-             return Grade="C+";
+             return grade="C+";
+            
         }else if(point >= gradeC){
-             return Grade="C";
+             return grade="C";
+            
         }else if(point >= gradeDPlus){
-             return Grade="D+";
+             return grade="D+";
+            
         }else if(point >= gradeD){
-             return Grade="D";
+             return grade="D";
+            
         }else{
-            return Grade="E";
+            return grade="E";
+            
         }
         
        
