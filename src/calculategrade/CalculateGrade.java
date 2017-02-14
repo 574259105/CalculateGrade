@@ -1,5 +1,5 @@
 
-package calculategrade;
+package th.ac.npru.se.calculategrade;
 
 
 
