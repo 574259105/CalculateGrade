@@ -11,6 +11,6 @@ package calculategrade;
  */
 public interface ICalGrade {
     
-    public String CGrade(int grade);
+    public String calGrade(int point);
     
 }
