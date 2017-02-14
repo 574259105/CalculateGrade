@@ -12,7 +12,7 @@ public class CalculateGrade {
         
         CalGrade CG1 = new CalGrade();
         
-        CG1.CGrade(1011);
+        CG1.calGrade(77);
         
         System.out.println(CG1.Grade);
     }
