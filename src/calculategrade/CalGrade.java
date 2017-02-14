@@ -9,43 +9,43 @@ package calculategrade;
  *
  * @author LENOVO
  */
-public class CalGrade implements ICalGrade {
+public class SoftWareSubject implements ICalGrade {
 
     
-    String Grade;
-    int aa=100;
-    int a=80;
-    int b=70;
-    int c=60;
-    int d=50;
-    int bb=75;
-    int cc=65;
-    int dd=55;
+    String grade;
+    int gradeMax=100;
+    int gradeA=80;
+    int gradeB=70;
+    int gradeC=60;
+    int gradeD=50;
+    int gradeBPlus=75;
+    int gradeCPlus=65;
+    int gradeDPlus=55;
     
                    
     
-    public String CGrade(int grade) {
+    public String CGrade(int point) {
         
       
-        if(grade > aa){
+        if(point > gradeMax){
             
             return Grade="Grade ERROR";
             
-        }else if(grade >= bb){
+        }else if(point >= gradeA){
+             return Grade="A";
+             
+        }else if(point >= gradeBPlus){
              return Grade="B+";
              
-        }else if(grade >= bb){
-             return Grade="B+";
-             
-        }else if(grade >= bb){
+        }else if(point >= gradeB){
              return Grade="B";
-        }else if(grade >= cc){
+        }else if(point >= cc){
              return Grade="C+";
-        }else if(grade >= c){
+        }else if(point >= gradeC){
              return Grade="C";
-        }else if(grade >= dd){
+        }else if(point >= gradeDPlus){
              return Grade="D+";
-        }else if(grade >= d){
+        }else if(point >= gradeD){
              return Grade="D";
         }else{
             return Grade="E";
